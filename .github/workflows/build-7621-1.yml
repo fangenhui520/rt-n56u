@@ -1,4 +1,4 @@
-name: Build MT7621-1-msg1500
+name: Build MT7621-1-K2P-USB-5.0
 
 on: 
   release:
@@ -35,7 +35,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: "MSG1500"
+        TNAME: "K2P-USB-5.0"
       run: |
         cwd=`pwd`
         CONFIG_TOOLCHAIN_DIR=${cwd//\//\\\/}\\/toolchain-mipsel
