@@ -63,7 +63,7 @@ rpc-allow-origin-all=true
 dir=$DIR_DL1
 max-download-limit=0
 max-overall-download-limit=0
-disable-ipv6=false
+disable-ipv6=true
 
 ### File
 file-allocation=trunc
@@ -81,9 +81,9 @@ bt-max-open-files=100
 bt-request-peer-speed-limit=100K
 bt-stop-timeout=0
 enable-dht=true
-#enable-dht6=false
+enable-dht6=true
 enable-peer-exchange=true
-seed-ratio=1.5
+seed-ratio=1
 #seed-time=60
 max-upload-limit=0
 max-overall-upload-limit=0
